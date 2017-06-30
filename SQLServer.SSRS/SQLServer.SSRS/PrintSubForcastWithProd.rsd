@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>SQL_MRPDevelopment</DataSourceReference>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>dbo.getPrintSubForecastWithProd</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="MpoNo">
+        <DataField>MpoNo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="PartNumber">
+        <DataField>PartNumber</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="QtyActual">
+        <DataField>QtyActual</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="QtyEngReleased">
+        <DataField>QtyEngReleased</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="MpoType">
+        <DataField>MpoType</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="QtyOrder">
+        <DataField>QtyOrder</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="DeptNode">
+        <DataField>DeptNode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DeptOrder">
+        <DataField>DeptOrder</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DeptProd">
+        <DataField>DeptProd</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MpoStatus">
+        <DataField>MpoStatus</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="StFinal">
+        <DataField>StFinal</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="MpoPartRev">
+        <DataField>MpoPartRev</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="StNotesLNA">
+        <DataField>StNotesLNA</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DeptPer">
+        <DataField>DeptPer</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
