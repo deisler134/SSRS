@@ -10,6 +10,10 @@
       <Name>SQL_MRPDevelopment.rds</Name>
       <FullPath>SQL_MRPDevelopment.rds</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>SQLMRPDevelopment.rds</Name>
+      <FullPath>SQLMRPDevelopment.rds</FullPath>
+    </ProjectItem>
   </DataSources>
   <DataSets>
     <ProjectItem>
@@ -29,15 +33,27 @@
       <FullPath>PrintSubForecastWithMinMax.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>PrintSubForcastWithProd.rsd</Name>
-      <FullPath>PrintSubForcastWithProd.rsd</FullPath>
+      <Name>PrintSubForecastWithPOQty.rsd</Name>
+      <FullPath>PrintSubForecastWithPOQty.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>PrintSubForcastWithPOQty.rsd</Name>
-      <FullPath>PrintSubForcastWithPOQty.rsd</FullPath>
+      <Name>PrintSubForecastWithProd.rsd</Name>
+      <FullPath>PrintSubForecastWithProd.rsd</FullPath>
     </ProjectItem>
   </DataSets>
   <Reports>
+    <ProjectItem>
+      <Name>MSPrintCustOrderForecast.rdl</Name>
+      <FullPath>MSPrintCustOrderForecast.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MSSubReportForecastWithMinMax.rdl</Name>
+      <FullPath>MSSubReportForecastWithMinMax.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MSSubReportForecastWithProd.rdl</Name>
+      <FullPath>MSSubReportForecastWithProd.rdl</FullPath>
+    </ProjectItem>
     <ProjectItem>
       <Name>rptPrintCustomerList.rdl</Name>
       <FullPath>rptPrintCustomerList.rdl</FullPath>
@@ -47,8 +63,12 @@
       <FullPath>subRptCustomerListContact.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>MSPrintCustOrderForecast.rdl</Name>
-      <FullPath>MSPrintCustOrderForecast.rdl</FullPath>
+      <Name>MSSubReportForecastWithProdMFGPart.rdl</Name>
+      <FullPath>MSSubReportForecastWithProdMFGPart.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MSSubReportForecastWithCustQty.rdl</Name>
+      <FullPath>MSSubReportForecastWithCustQty.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
