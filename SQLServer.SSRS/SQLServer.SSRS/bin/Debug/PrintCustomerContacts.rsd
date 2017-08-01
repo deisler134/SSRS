@@ -2,10 +2,18 @@
 <SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
   <DataSet Name="">
     <Query>
-      <DataSourceReference>SQL_MRP</DataSourceReference>
+      <DataSourceReference>SQLMRPDevelopment</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@CustomerListID">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
       <CommandText>SELECT        ContactID, CustomerID, ContactTitle, ContactName, Phone, Post, Fax, Email
 FROM            tblCustContact
-
+WHERE        (CustomerID = @CustomerListID)
 ORDER BY CustomerID, ContactName</CommandText>
     </Query>
     <Fields>

@@ -1,8 +1,10 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
   <DataSet Name="">
     <Query>
-      <DataSourceReference>SQL_MRPDevelopment</DataSourceReference>
+      <DataSourceReference>SQLMRPDevelopment</DataSourceReference>
       <DataSetParameters>
         <DataSetParameter Name="@DateTo">
           <ReadOnly>false</ReadOnly>
@@ -177,4 +179,366 @@
       </Field>
     </Fields>
   </DataSet>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>SQLMRPDevelopment</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@DateTo">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>DateTime</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>dbo.getPrintCustOrderForecast_2LNAOnly</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="OrdPartNoID">
+        <DataField>OrdPartNoID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="PartNumber">
+        <DataField>PartNumber</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CustM3No">
+        <DataField>CustM3No</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdPartCross99ID">
+        <DataField>OrdPartCross99ID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="MFGPartNo">
+        <DataField>MFGPartNo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MFGM3No">
+        <DataField>MFGM3No</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdDelivID">
+        <DataField>OrdDelivID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DelYear">
+        <DataField>DelYear</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="OrderID">
+        <DataField>OrderID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DelMonth">
+        <DataField>DelMonth</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DelivDate">
+        <DataField>DelivDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="OrdNumber">
+        <DataField>OrdNumber</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdItemNo">
+        <DataField>OrdItemNo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrderItemsID">
+        <DataField>OrderItemsID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="OrdDevise">
+        <DataField>OrdDevise</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdStatus">
+        <DataField>OrdStatus</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DelivQty">
+        <DataField>DelivQty</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="OrdDateRecv">
+        <DataField>OrdDateRecv</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="OrdItemPrice">
+        <DataField>OrdItemPrice</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="BalDelivQty">
+        <DataField>BalDelivQty</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="DelivType">
+        <DataField>DelivType</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DelivStatus">
+        <DataField>DelivStatus</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DelivNotes">
+        <DataField>DelivNotes</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdItemStatus">
+        <DataField>OrdItemStatus</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="NotesOrder">
+        <DataField>NotesOrder</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdDate">
+        <DataField>OrdDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="CustomerShort">
+        <DataField>CustomerShort</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Expr1">
+        <DataField>Expr1</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DelivShippedQty">
+        <DataField>DelivShippedQty</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="ShipShortName">
+        <DataField>ShipShortName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ShipWSHE">
+        <DataField>ShipWSHE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DIS_Deliv_date">
+        <DataField>DIS_Deliv_date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="DIS_Cust_Name">
+        <DataField>DIS_Cust_Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DIS_ORD_NO">
+        <DataField>DIS_ORD_NO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DIS_ORD_LINE">
+        <DataField>DIS_ORD_LINE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SwRateMonth">
+        <DataField>SwRateMonth</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="SwShipedQty">
+        <DataField>SwShipedQty</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="SwREQQty">
+        <DataField>SwREQQty</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="SwMinTranzQty">
+        <DataField>SwMinTranzQty</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SwTranzQty">
+        <DataField>SwTranzQty</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+>>>>>>> 5e0814b4834e8953a5537725fa92aa9599e98d48
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>SQLMRPDevelopment</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@DateTo">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>DateTime</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>dbo.getPrintCustOrderForecast_2LNAOnly</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="OrdPartNoID">
+        <DataField>OrdPartNoID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="PartNumber">
+        <DataField>PartNumber</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CustM3No">
+        <DataField>CustM3No</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdPartCross99ID">
+        <DataField>OrdPartCross99ID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="MFGPartNo">
+        <DataField>MFGPartNo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MFGM3No">
+        <DataField>MFGM3No</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdDelivID">
+        <DataField>OrdDelivID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DelYear">
+        <DataField>DelYear</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="OrderID">
+        <DataField>OrderID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DelMonth">
+        <DataField>DelMonth</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DelivDate">
+        <DataField>DelivDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="OrdNumber">
+        <DataField>OrdNumber</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdItemNo">
+        <DataField>OrdItemNo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrderItemsID">
+        <DataField>OrderItemsID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="OrdDevise">
+        <DataField>OrdDevise</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdStatus">
+        <DataField>OrdStatus</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DelivQty">
+        <DataField>DelivQty</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="OrdDateRecv">
+        <DataField>OrdDateRecv</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="OrdItemPrice">
+        <DataField>OrdItemPrice</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="BalDelivQty">
+        <DataField>BalDelivQty</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="DelivType">
+        <DataField>DelivType</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DelivStatus">
+        <DataField>DelivStatus</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DelivNotes">
+        <DataField>DelivNotes</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdItemStatus">
+        <DataField>OrdItemStatus</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="NotesOrder">
+        <DataField>NotesOrder</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrdDate">
+        <DataField>OrdDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="CustomerShort">
+        <DataField>CustomerShort</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Expr1">
+        <DataField>Expr1</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DelivShippedQty">
+        <DataField>DelivShippedQty</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="ShipShortName">
+        <DataField>ShipShortName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ShipWSHE">
+        <DataField>ShipWSHE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DIS_Deliv_date">
+        <DataField>DIS_Deliv_date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="DIS_Cust_Name">
+        <DataField>DIS_Cust_Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DIS_ORD_NO">
+        <DataField>DIS_ORD_NO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DIS_ORD_LINE">
+        <DataField>DIS_ORD_LINE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SwRateMonth">
+        <DataField>SwRateMonth</DataField>
+        <rd:TypeName>System.Single</rd:TypeName>
+      </Field>
+      <Field Name="SwShipedQty">
+        <DataField>SwShipedQty</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="SwREQQty">
+        <DataField>SwREQQty</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="SwMinTranzQty">
+        <DataField>SwMinTranzQty</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SwTranzQty">
+        <DataField>SwTranzQty</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+>>>>>>> 5e0814b4834e8953a5537725fa92aa9599e98d48
 </SharedDataSet>

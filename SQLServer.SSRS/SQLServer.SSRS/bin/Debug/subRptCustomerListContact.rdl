@@ -146,16 +146,7 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PrintCustomerContacts</DataSetName>
-            <Filters>
-              <Filter>
-                <FilterExpression>=Fields!CustomerID.Value</FilterExpression>
-                <Operator>Equal</Operator>
-                <FilterValues>
-                  <FilterValue>=Parameters!CustomerListID.Value</FilterValue>
-                </FilterValues>
-              </Filter>
-            </Filters>
-            <Top>0.14583in</Top>
+            <Top>0.52083in</Top>
             <Left>0.16542in</Left>
             <Height>0.35417in</Height>
             <Width>6.14583in</Width>
@@ -165,6 +156,39 @@
               </Border>
             </Style>
           </Tablix>
+          <Textbox Name="Textbox2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Contact Title</Value>
+                    <Style>
+                      <FontSize>8pt</FontSize>
+                      <TextDecoration>Underline</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <Top>0.15451in</Top>
+            <Left>0.16542in</Left>
+            <Height>0.20139in</Height>
+            <Width>0.72917in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
         <Height>1.34375in</Height>
         <Style />

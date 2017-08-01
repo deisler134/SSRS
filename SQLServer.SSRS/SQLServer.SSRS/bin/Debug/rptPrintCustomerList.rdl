@@ -99,7 +99,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>3.87028in</Height>
+                  <Height>1.30778in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -274,6 +274,7 @@
                                   <Value>=Fields!CustomerID.Value</Value>
                                 </Parameter>
                               </Parameters>
+                              <OmitBorderOnPageBreak>true</OmitBorderOnPageBreak>
                               <Top>0.72445in</Top>
                               <Left>2.44444in</Left>
                               <Height>0.38542in</Height>
@@ -281,7 +282,7 @@
                               <ZIndex>6</ZIndex>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                               </Style>
                             </Subreport>
@@ -320,7 +321,7 @@
             </TablixRowHierarchy>
             <DataSetName>PrintCustomerList</DataSetName>
             <Left>0.0925in</Left>
-            <Height>3.87028in</Height>
+            <Height>1.30778in</Height>
             <Width>10.44917in</Width>
             <Style>
               <Border>
