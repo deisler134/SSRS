@@ -1,2 +1,2 @@
 # SSRS
-Using SQL Sever Report Service to create business report and deployment 
+Using SQL Sever Reporting Services create business report and deployment 
